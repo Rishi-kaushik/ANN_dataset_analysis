@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Grab the four common 1 M ANN datasets right here.
 
+mkdir -p datasets
+cd datasets
+
 # SIFT-1M (128-D)
 wget -nc ftp://ftp.irisa.fr/local/texmex/corpus/sift.tar.gz
 tar -xzf sift.tar.gz

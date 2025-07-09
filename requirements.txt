@@ -1,2 +1,5 @@
 numpy
 h5py
+matplotlib
+seaborn
+pandas
